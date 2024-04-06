@@ -1,0 +1,14 @@
+ENUMERATING SMB(SAMBA)
+
+we dont know more about smb but we know its open from nmap 
+so lets use metaexploit to scan
+
+-msfconsole(loadup metasploit)
+
+we found Samba 2.2.1a by samba scanner auxiliary
+
+
+tool-smbclient
+smbclient is a tool which helps to connect to smb(samba)
+
+smbclient \\\\paste_ip_here\\

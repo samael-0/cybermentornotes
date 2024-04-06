@@ -1,0 +1,21 @@
+NMAP note
+
+CYBERMENTOR-PRACTICAL ETHICAL HACKING
+
+scanning
+-topic-nmap
+
+what and why is stealth scanning(-sS)
+
+SYN SYNACK ACK
+SYN SYNACK ACK happens in normal connection where we say let me connet(syn) server says i have this open port(synack) but instead of connecting with server(ack) we say we were just joking(RST)
+
+nmap -T4- -p- -A (for scanning TCP)
+nmap -sU -T4- -p -A (for scanning UDP)
+
+-T4 = speed
+-p- = want to scann all ports(if -p- is not included it scanns top ports)
+-p = scans top 1000 ports
+-A = everything(i want to scan everything and tell every info like version info and etc)
+
+nmap -T4- -p- -A

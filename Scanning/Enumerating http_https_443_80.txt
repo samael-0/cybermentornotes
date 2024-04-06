@@ -1,0 +1,23 @@
+
+NIKTO = A WEB VULNERABLE SCANNER
+
+nikto -h https://192.167.21.21
+
+-h= host 
+
+
+
+DIRECTORY BUSTING
+TOOLS
+-dirbuster
+-dirb
+-gobuster
+
+here we used dirbuster and we got response codes
+
+200- ok we find smtg there
+403-error 0r 404 somekind of error
+300- typically a redirect
+500-server error
+
+
